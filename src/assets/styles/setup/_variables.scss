@@ -1,0 +1,19 @@
+// black&white pallette
+
+$color1: #000;
+$color2: #fff;
+$color3: #6b6a6a;
+$color4: #f6f4f9;
+$color5: #9d9bad;
+
+//bgc pallete
+$violet: #373a6c;
+$purple: linear-gradient(180deg, #6f5ee2 0%, #6d5ed2 100%);
+$green: linear-gradient(180deg, #77c164 0%, #7cce67 100%);
+$blue: linear-gradient(180deg, #518cfe 0%, #5991fc 100%);
+$red: linear-gradient(180deg, #f56651 0%, #f26955 100%);
+
+// Breakpoints
+$mobile-breakpoint: 560px;
+$narrow-breakpoint: 860px;
+$normal-breakpoint: 960px;

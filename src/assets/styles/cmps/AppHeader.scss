@@ -1,0 +1,40 @@
+.header-container {
+  background-color: $violet;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: rem(115px);
+    padding: 0;
+    list-style-type: none;
+    margin-inline-start: rem(30px);
+  }
+  img {
+    width: 27px;
+  }
+
+  .user-profile {
+    display: flex;
+    gap: rem(20px);
+    margin-inline-end: rem(15px);
+  }
+}
+
+.header-categories {
+  font-family: PoppinsRegular;
+  font-size: rem(17px);
+  line-height: rem(20px);
+  letter-spacing: -0.24px;
+  margin: 0;
+  margin-inline: rem(32px);
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    height: rem(80px);
+  }
+}

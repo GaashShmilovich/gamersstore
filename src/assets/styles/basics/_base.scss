@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+}
+
+html {
+  font-family: PoppinsMedium;
+  line-height: 1.6;
+}
+
+body {
+  font-size: rem(18px);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: macanRegular;
+  margin: 0 0 0.6em;
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 0 0 1em;
+  // max-width: 40ch;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+}
