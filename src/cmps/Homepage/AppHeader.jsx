@@ -23,10 +23,18 @@ export function AppHeader() {
       </div>
       <div className="header-categories">
         <ul>
-          <li>PC</li>
-          <li>Playstation</li>
-          <li>Xbox</li>
-          <li>Nintendo</li>
+          <li>
+            <a href="/">PC</a>
+          </li>
+          <li>
+            <a href="/">Playstation</a>
+          </li>
+          <li>
+            <a href="/">Xbox</a>
+          </li>
+          <li>
+            <a href="/">Nintendo</a>
+          </li>
         </ul>
       </div>
     </>
