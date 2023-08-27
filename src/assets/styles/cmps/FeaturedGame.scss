@@ -1,0 +1,49 @@
+.game-container {
+  margin-inline: rem(30px);
+  margin-block-start: rem(110px);
+  img {
+    width: 100%;
+    height: rem(400px);
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  h1 {
+    font-family: PoppinsMedium;
+    font-size: rem(32px);
+    font-weight: 500;
+    line-height: rem(18px);
+    margin-block-end: rem(42px);
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block-start: rem(20px);
+    margin-block-end: rem(100px);
+    h1 {
+      font-family: PoppinsMedium;
+      font-weight: 500;
+      font-size: rem(19px);
+      line-height: 20px;
+      letter-spacing: -0.24px;
+      margin: 0;
+    }
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: $color3;
+      font-family: PoppinsRegular;
+      font-weight: 400;
+      font-size: rem(16px);
+      line-height: 20px;
+      letter-spacing: -0.24px;
+      margin: 0;
+      svg {
+        margin-block-end: 3px;
+        fill: gold;
+      }
+    }
+  }
+}

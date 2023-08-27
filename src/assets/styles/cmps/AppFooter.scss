@@ -1,0 +1,53 @@
+.footer-container {
+  position: relative;
+  .bottom-nav-container {
+    position: relative;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+      }
+    }
+
+    .left-nav {
+      position: absolute;
+      display: flex;
+      bottom: 25px;
+      left: 7.5%;
+      gap: rem(40px);
+    }
+
+    .search-circle {
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: translate(-50%, -120%);
+      width: rem(60px);
+      height: rem(60px);
+      border-radius: rem(40px);
+      background: linear-gradient(180deg, #373a6c 0%, #3e4180 100%);
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+      a {
+        display: flex;
+      }
+    }
+
+    .right-nav {
+      display: flex;
+      gap: rem(40px);
+      position: absolute;
+      display: flex;
+      bottom: 25px;
+      right: 7.5%;
+    }
+  }
+}

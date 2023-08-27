@@ -1,5 +1,6 @@
 .header-container {
   background-color: $violet;
+  position: relative;
 
   ul {
     display: flex;
@@ -15,7 +16,7 @@
     cursor: pointer;
   }
 
-  img {
+  .profile {
     width: 27px;
   }
 
@@ -27,12 +28,13 @@
 }
 
 .header-categories {
-  line-height: rem(20px);
-  letter-spacing: -0.24px;
-  margin: 0;
-  margin-inline: rem(32px);
+  background-color: $color2;
 
   ul {
+    line-height: rem(20px);
+    letter-spacing: -0.24px;
+    margin: 0;
+    margin-inline: rem(32px);
     display: flex;
     justify-content: space-between;
     align-items: center;

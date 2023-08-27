@@ -3,6 +3,7 @@ import { useSwiper } from "swiper/react";
 
 export function SwiperNavButton() {
   const swiper = useSwiper();
+
   return (
     <div className="swiper-nav-btn">
       <button onClick={() => swiper.slideNext()}>

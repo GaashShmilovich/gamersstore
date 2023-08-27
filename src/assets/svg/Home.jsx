@@ -1,0 +1,18 @@
+import React from "react";
+
+const Home = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="15"
+    viewBox="0 0 18 15"
+    fill="none"
+  >
+    <path
+      d="M7.2 15V9.70588H10.8V15H15.3V7.94118H18L9 0L0 7.94118H2.7V15H7.2Z"
+      fill="white"
+    />
+  </svg>
+);
+
+export default Home;
