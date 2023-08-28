@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { AiFillStar } from "react-icons/ai";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import Featured from "../../assets/img/Featured.jpg";
 
 export function FeaturedGame() {
   const [data, setData] = useState({});
@@ -47,7 +48,7 @@ export function FeaturedGame() {
       ) : (
         <div>
           <h1>Featured Game</h1>
-          <LazyLoadImage alt={data.name} src={data.background_image} />
+          <LazyLoadImage alt={data.name} src={Featured} />
           <div className="info">
             <h1>{data.name}</h1>
             <h2>Rating: {generateStars(data.rating_top)}</h2>
