@@ -3,6 +3,7 @@ import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { AiFillStar } from "react-icons/ai";
 import "swiper/swiper-bundle.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function PopSlider() {
   const [data, setData] = useState([]);
@@ -60,9 +61,9 @@ export function PopSlider() {
         >
           {data.map((item) => (
             <SwiperSlide key={item.id} style={{ height: "125px" }}>
-              <img
-                src={item.background_image}
+              <LazyLoadImage
                 alt={item.name}
+                src={item.background_image}
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
               <div className="info">

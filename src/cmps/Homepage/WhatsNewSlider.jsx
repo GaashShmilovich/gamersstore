@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperNavButton } from "./SwiperNavButton";
 import { AiFillStar } from "react-icons/ai";
 import "swiper/swiper-bundle.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function WhatsNewSlider() {
   const [data, setData] = useState([]);
@@ -63,9 +64,9 @@ export function WhatsNewSlider() {
         >
           {data.map((item) => (
             <SwiperSlide key={item.id} style={{ height: "250px" }}>
-              <img
-                src={item.background_image}
+              <LazyLoadImage
                 alt={item.name}
+                src={item.background_image}
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
               <div className="info">
