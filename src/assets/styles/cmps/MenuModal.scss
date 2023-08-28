@@ -86,4 +86,25 @@
       }
     }
   }
+
+  .sidenav-container {
+    margin-block-start: rem(45px);
+
+    .sidenav {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: rem(38px);
+      margin-inline-start: 0;
+      height: auto;
+      li {
+        display: flex;
+        align-items: center;
+        gap: rem(10px);
+        font-family: OpenRegular;
+        font-weight: 400;
+        line-height: rem(18px);
+      }
+    }
+  }
 }
